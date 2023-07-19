@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Qoin API Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6c3b01e-e23a-4281-9b98-60b72ca4ca18</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ee7dfc86-fed8-47c7-8754-3d2078cf763f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ee7dfc86-fed8-47c7-8754-3d2078cf763f</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
