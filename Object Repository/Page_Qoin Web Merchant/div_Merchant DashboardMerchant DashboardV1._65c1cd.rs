@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Merchant DashboardMerchant DashboardV1._65c1cd</name>
+   <tag></tag>
+   <elementGuidId>1f76698b-502b-40cb-9b05-b83ddb48c3b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.d-flex.flex-column.justify-content-lg-between.auth__left.col-lg-6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>67b4a22b-c0e8-4d38-95ec-6dd1679e45d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-flex flex-column justify-content-lg-between auth__left col-lg-6</value>
+      <webElementGuid>ac3e97d3-7018-43c6-9023-9d46826569b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Merchant DashboardMerchant DashboardV1.4.1.0 © 2023 Qoin.id. All rights reserved</value>
+      <webElementGuid>bcdd8bf6-b73b-4baf-9292-38c1e086ed9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;auth row&quot;]/div[@class=&quot;d-flex flex-column justify-content-lg-between auth__left col-lg-6&quot;]</value>
+      <webElementGuid>2d490d9e-e27e-4904-9386-6e77e76f3ece</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div</value>
+      <webElementGuid>d42370f4-c4c8-492c-bfa8-1a3ca71c7dd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div</value>
+      <webElementGuid>433fdfa1-89a9-400a-86fa-ffafcf7ae5cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Merchant DashboardMerchant DashboardV1.4.1.0 © 2023 Qoin.id. All rights reserved' or . = 'Merchant DashboardMerchant DashboardV1.4.1.0 © 2023 Qoin.id. All rights reserved')]</value>
+      <webElementGuid>12d9699a-8506-4d83-880c-687baa638bba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

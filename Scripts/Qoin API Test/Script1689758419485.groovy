@@ -56,12 +56,17 @@ ResponseObject EditDataResp = WS.sendRequestAndVerify(EditData, FailureHandling.
 CustomKeywords.'id.co.reqres.api.putSingleUser'(EditDataResp)
 
 //API POST Single User
-TestData inputdata = findTestData('Data Files/POST')
+JsonSlurper jsonSluper = new JsonSlurper()
+def jsonResp = jsonSluper.parseText(SingleUserResp.getResponseText())
+email = jsonResp.data.email
+first_name = jsonResp.data.first_name
+last_name = jsonResp.data.last_name
+//TestData inputdata = findTestData('Data Files/POST')
 RequestObject InputData = findTestObject('Object Repository/Postman/Post Request',
 	[
-		    ('email') : inputdata.getValue('email', 1),
-			('first_name'): inputdata.getValue('firstname', 1),
-			('last_name'): inputdata.getValue('lastname', 1)
+		    ('email') : email,
+			('first_name'): first_name,
+			('last_name'): last_name
 		])
 ResponseObject InputDataResp = WS.sendRequestAndVerify(InputData, FailureHandling.STOP_ON_FAILURE)
 CustomKeywords.'id.co.reqres.api.postSingleUser'(InputDataResp)

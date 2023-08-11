@@ -28,7 +28,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import internal.GlobalVariable
 
 public class api {
-	
+
 	@Keyword
 	def getListUsers (ResponseObject response){
 		KeywordUtil.logInfo("HEADER\n"+response.getHeaderFields()+"\n\nBODY\n"+response.getResponseBodyContent())
@@ -42,7 +42,7 @@ public class api {
 			KeywordUtil.markFailed("API Failed 400")
 		}
 	}
-	
+
 	@Keyword
 	def getSingleUser (ResponseObject response){
 		KeywordUtil.logInfo("HEADER\n"+response.getHeaderFields()+"\n\nBODY\n"+response.getResponseBodyContent())
@@ -56,7 +56,7 @@ public class api {
 			KeywordUtil.markFailed("API Failed 400")
 		}
 	}
-	
+
 	@Keyword
 	def putSingleUser (ResponseObject response){
 		KeywordUtil.logInfo("HEADER\n"+response.getHeaderFields()+"\n\nBODY\n"+response.getResponseBodyContent())
@@ -72,7 +72,7 @@ public class api {
 			KeywordUtil.markFailed("API Failed 400")
 		}
 	}
-	
+
 	@Keyword
 	def postSingleUser (ResponseObject response){
 		KeywordUtil.logInfo("HEADER\n"+response.getHeaderFields()+"\n\nBODY\n"+response.getResponseBodyContent())
